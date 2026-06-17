@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 220" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Decorative banner of overlapping human head-and-shoulders profile silhouettes in maroon and terracotta tones">
+  <defs>
+    <!-- Reusable head-and-shoulders profile silhouette facing right -->
+    <path id="head" d="M120,220 V150 C120,118 140,96 168,86 C160,70 158,52 168,38 C180,20 206,14 226,24 C244,33 252,54 248,76 C246,90 248,102 256,112 C268,127 286,134 286,160 V220 Z"/>
+  </defs>
+
+  <rect width="1600" height="220" fill="#f3ece6"/>
+
+  <!-- Back row: large, muted, low contrast -->
+  <use href="#head" x="-40"  y="-10" transform="scale(1.18)" fill="#c9b7a8" opacity="0.55"/>
+  <use href="#head" x="210"  y="-10" transform="scale(1.18)" fill="#b9a193" opacity="0.5"/>
+  <use href="#head" x="470"  y="-10" transform="scale(1.18)" fill="#caa893" opacity="0.5"/>
+  <use href="#head" x="720"  y="-10" transform="scale(1.18)" fill="#bca08f" opacity="0.55"/>
+  <use href="#head" x="980"  y="-10" transform="scale(1.18)" fill="#c9b7a8" opacity="0.5"/>
+
+  <!-- Mid row: terracotta / slate, alternating, partly mirrored -->
+  <use href="#head" x="70"   y="30" fill="#a8553c" opacity="0.85"/>
+  <use href="#head" x="300"  y="42" fill="#6e5a55" opacity="0.8" transform="scale(-1,1) translate(-1600,0)"/>
+  <use href="#head" x="540"  y="34" fill="#8a3b33" opacity="0.85"/>
+  <use href="#head" x="780"  y="44" fill="#9c6b4f" opacity="0.82"/>
+  <use href="#head" x="1010" y="34" fill="#5f4b46" opacity="0.8" transform="scale(-1,1) translate(-1600,0)"/>
+  <use href="#head" x="1250" y="42" fill="#a8553c" opacity="0.84"/>
+
+  <!-- Front row: deep maroon, crisp, foreground -->
+  <use href="#head" x="-30"  y="70" fill="#7a2e2a"/>
+  <use href="#head" x="230"  y="78" fill="#5c3a36"/>
+  <use href="#head" x="470"  y="72" fill="#86332b"/>
+  <use href="#head" x="700"  y="80" fill="#4e3530"/>
+  <use href="#head" x="940"  y="72" fill="#7a2e2a"/>
+  <use href="#head" x="1180" y="78" fill="#86332b"/>
+  <use href="#head" x="1410" y="72" fill="#5c3a36"/>
+</svg>

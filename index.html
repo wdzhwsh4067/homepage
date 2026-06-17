@@ -13,211 +13,250 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <!-- ===== Navigation ===== -->
-  <header class="nav" id="top">
-    <nav class="nav-inner" aria-label="Primary">
-      <a class="nav-brand" href="#top">Shaohuang Wang</a>
+  <!-- ===== Header bar ===== -->
+  <header class="site-header" id="top">
+    <div class="site-header-inner">
+      <a class="brand" href="#top">Shaohuang Wang</a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
       <label for="nav-toggle" class="nav-burger" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </label>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#about" class="is-current">Home</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <!-- ===== Hero / About ===== -->
-    <section class="hero" id="about">
-      <div class="hero-inner">
-        <div class="hero-photo">
-          <img src="static/self.jpeg" alt="Portrait of Shaohuang Wang" width="220" height="220" />
+  <!-- ===== Full-width decorative banner ===== -->
+  <div class="banner">
+    <img src="static/banner.svg" alt="Decorative banner of overlapping human head-and-shoulders profile silhouettes in maroon and terracotta tones" />
+  </div>
+
+  <!-- ===== Two-column body ===== -->
+  <div class="layout">
+    <!-- ----- Left sidebar ----- -->
+    <aside class="sidebar">
+      <img class="sidebar-photo" src="static/self.jpeg" alt="Portrait of Shaohuang Wang" width="240" height="240" />
+      <h1 class="sidebar-name">Shaohuang Wang</h1>
+      <p class="sidebar-title">CS Master's Student</p>
+      <p class="sidebar-affil">Xinjiang University</p>
+      <p class="sidebar-email"><a href="mailto:sh.wang4067@gmail.com">sh.wang4067@gmail.com</a></p>
+      <p class="sidebar-dept">
+        NLPIR Lab<br />
+        School of Computer Science<br />
+        Xinjiang University, Urumqi, China
+      </p>
+      <ul class="social" aria-label="Profiles and contact">
+        <li><a href="mailto:sh.wang4067@gmail.com"><span class="ico" aria-hidden="true">✉</span> Email</a></li>
+        <li><a href="https://scholar.google.com" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🎓</span> Google Scholar</a></li>
+        <li><a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">⌨</span> GitHub</a></li>
+        <li><a href="https://twitter.com" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🐦</span> Twitter</a></li>
+        <li><a href="https://nicedata.eu.org" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🏠</span> Homepage</a></li>
+      </ul>
+    </aside>
+
+    <!-- ----- Right main column ----- -->
+    <main class="main">
+      <!-- About -->
+      <section class="block" id="about">
+        <h2 class="about-title">About me</h2>
+        <p class="lead">
+          Computer Science Master's student exploring how Large Language Models can make
+          information retrieval and recommendation genuinely useful for people.
+        </p>
+        <p>
+          I'm Shaohuang Wang, a Computer Science Master's student at <strong>Xinjiang University</strong>,
+          focusing on Machine Learning and Data Structures. My research interests include
+          Large Language Models and Recommender Systems. I'm also a developer at
+          <strong>NLPIR Lab</strong>, working on NLP and data-processing technologies.
+        </p>
+        <p>
+          My current work centers on LLM-driven recommendation, retrieval-augmented generation (RAG),
+          supervised fine-tuning (SFT), and instruction-dataset construction — building systems that
+          turn semi-structured domain data into high-quality, trustworthy answers.
+        </p>
+
+        <div class="callout">
+          <span class="callout-icon" aria-hidden="true">★</span>
+          <p>
+            <strong>Currently:</strong> researching LLM-driven scientific &amp; technological
+            information recommendation for my master's thesis at the NLPIR Lab.
+          </p>
         </div>
-        <div class="hero-text">
-          <h1>Shaohuang Wang</h1>
-          <p class="hero-affil">
-            Computer Science Master's student at <strong>Xinjiang University</strong><br />
-            Developer at <strong>NLPIR Lab</strong>
+      </section>
+
+      <!-- Education -->
+      <section class="block" id="education">
+        <h2 class="block-title">Education</h2>
+        <div class="edu-item">
+          <div class="edu-head">
+            <h3>Xinjiang University, China</h3>
+            <span class="edu-date">2022.09 &ndash; Present</span>
+          </div>
+          <p class="edu-degree">M.Eng. in Computer Science &middot; GPA 3.5/4.0</p>
+          <p class="edu-detail"><strong>Core courses:</strong> Machine Learning, Computer Networks, Data Structures.</p>
+          <p class="edu-detail"><strong>Thesis:</strong> &ldquo;Research on scientific and technological information recommendation via LLM&rdquo;.</p>
+          <p class="edu-detail"><strong>Interests:</strong> LLM, RAG, SFT, Fine-tuning, Recommender Systems.</p>
+        </div>
+        <div class="edu-item">
+          <div class="edu-head">
+            <h3>Shanghai University of Engineering Science, China</h3>
+            <span class="edu-date">2016.09 &ndash; 2020.06</span>
+          </div>
+          <p class="edu-degree">B.Eng. in Vehicle Engineering &middot; GPA 3.1/4.0</p>
+          <p class="edu-detail"><strong>Awards:</strong> National Scholarship (Top 1%), First-Class Scholarship (Top 3%).</p>
+        </div>
+      </section>
+
+      <!-- Publications -->
+      <section class="block" id="publications">
+        <h2 class="block-title">Publications</h2>
+
+        <article class="pub-featured">
+          <div class="pub-figure">
+            <img src="static/paper1.png" alt="Figure from In-Context Tense Attack publication" loading="lazy" />
+          </div>
+          <div class="pub-body">
+            <h3>Bypassing LLM Safeguards: The In-Context Tense Attack Approach</h3>
+            <p class="pub-meta">Wang, S et al. &middot; International Conference on Computer Engineering and Networks &middot; arXiv:2406.12243 (2024) &middot; <span class="badge badge-accepted">Accepted</span></p>
+            <p class="pub-summary">
+              Explores combining tense attacks with in-context examples to manipulate LLM security,
+              and proposes the In-Context Tense Attack (ITA) for jailbreaking large language models.
+            </p>
+            <p class="pub-actions">
+              <a href="https://arxiv.org/abs/2406.12243" target="_blank" rel="noopener">Arxiv</a>
+              <a href="https://arxiv.org/pdf/2406.12243" target="_blank" rel="noopener">PDF</a>
+              <a href="https://arxiv.org/abs/2406.12243" target="_blank" rel="noopener">Cite</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="pub-featured pub-reverse">
+          <div class="pub-figure">
+            <img src="static/paper2-1.png" alt="Figure from CherryRec news recommendation framework" loading="lazy" />
+          </div>
+          <div class="pub-body">
+            <h3>CherryRec: Enhancing News Recommendation Quality via LLM driven Framework</h3>
+            <p class="pub-meta">Wang, S et al. &middot; ICASSP (2025) &middot; <span class="badge badge-review">Under Review</span></p>
+            <p class="pub-summary">
+              CherryRec is a news recommendation framework that uses LLMs to filter low-value news and
+              recommend high-quality news through user-preference understanding and multi-dimensional
+              scoring (KnRS + CnLE).
+            </p>
+            <p class="pub-actions">
+              <a href="#" target="_blank" rel="noopener">Arxiv</a>
+              <a href="#" target="_blank" rel="noopener">PDF</a>
+              <a href="#" target="_blank" rel="noopener">Cite</a>
+            </p>
+          </div>
+        </article>
+
+        <h3 class="subhead">Full publication list</h3>
+        <ol class="pub-list">
+          <li>Wang, S et al. &ldquo;Bypassing LLM Safeguards: The In-Context Tense Attack Approach.&rdquo; Int'l Conf. on Computer Engineering and Networks, arXiv:2406.12243 (2024). <span class="badge badge-accepted">Accepted</span></li>
+          <li>Wang, S et al. &ldquo;CherryRec: Enhancing News Recommendation Quality via LLM driven Framework.&rdquo; ICASSP (2025). <span class="badge badge-review">Under Review</span></li>
+          <li>Liang, Y &amp; Wang, S et al. &ldquo;LLaMA-MoT: A Cost-Effective Framework for Visual-Linguistic Instruction Tuning Based on Multi-Head Adapters and Chain-of-Thought.&rdquo; ESWA (2024). <span class="badge badge-review">Under Review</span></li>
+          <li>Wang, S et al. &ldquo;An agile construction method of instruction fine-tuning dataset based on semi-structured data.&rdquo; Patent (2024). <span class="badge badge-review">Submitted</span></li>
+          <li>Wang, S et al. &ldquo;Finite element analysis of modular automotive body based on Ansys.&rdquo; Guangxi Journal of Light Industry (2020). <span class="badge badge-accepted">Accepted</span></li>
+          <li>Wang, S et al. &ldquo;Buffer connecting device for vehicle.&rdquo; Patent (2020). <span class="badge badge-accepted">Accepted</span></li>
+        </ol>
+        <p class="pub-note">Still in possession of 8 patents, along with various other publications.</p>
+      </section>
+
+      <!-- Research Experience -->
+      <section class="block" id="research">
+        <h2 class="block-title">Research Experience</h2>
+        <div class="exp-item">
+          <div class="exp-head">
+            <h3>Domain Information Tracking and Processing Project</h3>
+            <span class="exp-date">2022.09 &ndash; Present</span>
+          </div>
+          <p class="exp-role">Developer &middot; NLPIR Lab</p>
+          <p class="exp-detail">
+            Built the algorithm tool layer: data collection, review and correction, dynamic selection,
+            keyword extraction, and briefing generation. Used Elasticsearch and MySQL with a
+            Docker-based deployment featuring front/back-end separation.
           </p>
-          <p class="hero-bio">
-            I'm Shaohuang Wang, a Computer Science Master's student at Xinjiang University,
-            focusing on Machine Learning and Data Structures. My research interests include
-            Large Language Models and Recommender Systems. I'm also a developer at NLPIR Lab,
-            working on NLP and data processing technologies.
-          </p>
-          <ul class="hero-links" aria-label="Profiles and contact">
-            <li><a href="mailto:sh.wang4067@gmail.com">Email</a></li>
-            <li><a href="https://nicedata.eu.org" target="_blank" rel="noopener">CV</a></li>
-            <li><a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a></li>
-            <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a></li>
-            <li><a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener">GitHub</a></li>
-            <li><a href="https://nicedata.eu.org" target="_blank" rel="noopener">Homepage</a></li>
+          <ul class="tag-row" aria-label="Tech stack">
+            <li>Python</li><li>Elasticsearch</li><li>MySQL</li><li>Docker</li><li>Vue.JS</li><li>FastAPI</li>
           </ul>
         </div>
-      </div>
-    </section>
-
-    <!-- ===== Education ===== -->
-    <section class="section" id="education">
-      <h2 class="section-title">Education</h2>
-      <div class="edu-item">
-        <div class="edu-head">
-          <h3>Xinjiang University, China</h3>
-          <span class="edu-date">2022.09 &ndash; Present</span>
-        </div>
-        <p class="edu-degree">M.Eng. in Computer Science &middot; GPA 3.5/4.0</p>
-        <p class="edu-detail"><strong>Core courses:</strong> Machine Learning, Computer Networks, Data Structures.</p>
-        <p class="edu-detail"><strong>Thesis:</strong> &ldquo;Research on scientific and technological information recommendation via LLM&rdquo;.</p>
-        <p class="edu-detail"><strong>Interests:</strong> LLM, RAG, SFT, Fine-tuning, Recommender Systems.</p>
-      </div>
-      <div class="edu-item">
-        <div class="edu-head">
-          <h3>Shanghai University of Engineering Science, China</h3>
-          <span class="edu-date">2016.09 &ndash; 2020.06</span>
-        </div>
-        <p class="edu-degree">B.Eng. in Vehicle Engineering &middot; GPA 3.1/4.0</p>
-        <p class="edu-detail"><strong>Awards:</strong> National Scholarship (Top 1%), First-Class Scholarship (Top 3%).</p>
-      </div>
-    </section>
-
-    <!-- ===== Publications ===== -->
-    <section class="section" id="publications">
-      <h2 class="section-title">Publications</h2>
-
-      <article class="pub-featured">
-        <div class="pub-figure">
-          <img src="static/paper1.png" alt="Figure from In-Context Tense Attack publication" loading="lazy" />
-        </div>
-        <div class="pub-body">
-          <h3>Bypassing LLM Safeguards: The In-Context Tense Attack Approach</h3>
-          <p class="pub-meta">Wang, S et al. &middot; International Conference on Computer Engineering and Networks &middot; arXiv:2406.12243 (2024) &middot; <span class="badge badge-accepted">Accepted</span></p>
-          <p class="pub-summary">
-            Explores combining tense attacks with in-context examples to manipulate LLM security,
-            and proposes the In-Context Tense Attack (ITA) for jailbreaking large language models.
+        <div class="exp-item">
+          <div class="exp-head">
+            <h3>Doc2QA Framework for LLM SFT Datasets</h3>
+            <span class="exp-date">2023.04 &ndash; Present</span>
+          </div>
+          <p class="exp-role">Developer &middot; NLPIR Lab</p>
+          <p class="exp-detail">
+            Released a QA instruction-tuning dataset from semi-structured data and built the
+            &ldquo;Doc2QA&rdquo; LLM framework that generates QA pairs from HTML, DOC, and PDF sources.
           </p>
-          <p class="pub-actions">
-            <a href="https://arxiv.org/abs/2406.12243" target="_blank" rel="noopener">Arxiv</a>
-            <a href="https://arxiv.org/pdf/2406.12243" target="_blank" rel="noopener">PDF</a>
-            <a href="https://arxiv.org/abs/2406.12243" target="_blank" rel="noopener">Cite</a>
-          </p>
+          <ul class="tag-row" aria-label="Tech stack">
+            <li>Python</li><li>Llama-factory</li><li>Vllm</li><li>FastAPI</li><li>Docker</li><li>JavaScript</li>
+          </ul>
         </div>
-      </article>
+      </section>
 
-      <article class="pub-featured pub-reverse">
-        <div class="pub-figure">
-          <img src="static/paper2-1.png" alt="Figure from CherryRec news recommendation framework" loading="lazy" />
+      <!-- Skills -->
+      <section class="block" id="skills">
+        <h2 class="block-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skills-text">
+            <div class="skill-block">
+              <h3>Proficient in Coding</h3>
+              <p>Python, FastAPI, Elasticsearch, Docker, Vue.Js, Nginx</p>
+            </div>
+            <div class="skill-block">
+              <h3>Model Training in AI/ML</h3>
+              <p>PyTorch, TensorFlow, Llama-index, Vllm, Llama-factory</p>
+            </div>
+            <div class="skill-block">
+              <h3>Simulation and Design</h3>
+              <p>AutoCAD, CATIA, SolidWorks, ANSYS, 3DMax, Adobe Photoshop/Illustrator</p>
+            </div>
+            <div class="skill-block">
+              <h3>Languages</h3>
+              <p>Chinese (native), English (IELTS 6.5), Japanese (JLPT-N2)</p>
+            </div>
+          </div>
+          <figure class="skills-figure">
+            <img src="static/stack.png" alt="Diagram of Shaohuang Wang's technical skill stack" loading="lazy" />
+          </figure>
         </div>
-        <div class="pub-body">
-          <h3>CherryRec: Enhancing News Recommendation Quality via LLM driven Framework</h3>
-          <p class="pub-meta">Wang, S et al. &middot; ICASSP (2025) &middot; <span class="badge badge-review">Under Review</span></p>
-          <p class="pub-summary">
-            CherryRec is a news recommendation framework that uses LLMs to filter low-value news and
-            recommend high-quality news through user-preference understanding and multi-dimensional
-            scoring (KnRS + CnLE).
-          </p>
-          <p class="pub-actions">
-            <a href="#" target="_blank" rel="noopener">Arxiv</a>
-            <a href="#" target="_blank" rel="noopener">PDF</a>
-            <a href="#" target="_blank" rel="noopener">Cite</a>
-          </p>
-        </div>
-      </article>
+      </section>
 
-      <h3 class="subhead">Full publication list</h3>
-      <ol class="pub-list">
-        <li>Wang, S et al. &ldquo;Bypassing LLM Safeguards: The In-Context Tense Attack Approach.&rdquo; Int'l Conf. on Computer Engineering and Networks, arXiv:2406.12243 (2024). <span class="badge badge-accepted">Accepted</span></li>
-        <li>Wang, S et al. &ldquo;CherryRec: Enhancing News Recommendation Quality via LLM driven Framework.&rdquo; ICASSP (2025). <span class="badge badge-review">Under Review</span></li>
-        <li>Liang, Y &amp; Wang, S et al. &ldquo;LLaMA-MoT: A Cost-Effective Framework for Visual-Linguistic Instruction Tuning Based on Multi-Head Adapters and Chain-of-Thought.&rdquo; ESWA (2024). <span class="badge badge-review">Under Review</span></li>
-        <li>Wang, S et al. &ldquo;An agile construction method of instruction fine-tuning dataset based on semi-structured data.&rdquo; Patent (2024). <span class="badge badge-review">Submitted</span></li>
-        <li>Wang, S et al. &ldquo;Finite element analysis of modular automotive body based on Ansys.&rdquo; Guangxi Journal of Light Industry (2020). <span class="badge badge-accepted">Accepted</span></li>
-        <li>Wang, S et al. &ldquo;Buffer connecting device for vehicle.&rdquo; Patent (2020). <span class="badge badge-accepted">Accepted</span></li>
-      </ol>
-      <p class="pub-note">Still in possession of 8 patents, along with various other publications.</p>
-    </section>
-
-    <!-- ===== Research Experience ===== -->
-    <section class="section" id="research">
-      <h2 class="section-title">Research Experience</h2>
-      <div class="exp-item">
-        <div class="exp-head">
-          <h3>Domain Information Tracking and Processing Project</h3>
-          <span class="exp-date">2022.09 &ndash; Present</span>
-        </div>
-        <p class="exp-role">Developer &middot; NLPIR Lab</p>
-        <p class="exp-detail">
-          Built the algorithm tool layer: data collection, review and correction, dynamic selection,
-          keyword extraction, and briefing generation. Used Elasticsearch and MySQL with a
-          Docker-based deployment featuring front/back-end separation.
-        </p>
-        <ul class="tag-row" aria-label="Tech stack">
-          <li>Python</li><li>Elasticsearch</li><li>MySQL</li><li>Docker</li><li>Vue.JS</li><li>FastAPI</li>
+      <!-- Contact -->
+      <section class="block" id="contact">
+        <h2 class="block-title">Contact</h2>
+        <ul class="contact-list">
+          <li><span class="contact-label">Email</span><a href="mailto:sh.wang4067@gmail.com">sh.wang4067@gmail.com</a></li>
+          <li><span class="contact-label">Tel</span><a href="tel:+8618116152720">+86 181-1615-2720</a></li>
+          <li><span class="contact-label">Homepage</span><a href="https://nicedata.eu.org" target="_blank" rel="noopener">nicedata.eu.org</a></li>
+          <li><span class="contact-label">GitHub</span><a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener">wdzhwsh4076</a></li>
+          <li><span class="contact-label">Address</span><span>Boda Campus, Xinjiang University, Urumqi City, China</span></li>
         </ul>
-      </div>
-      <div class="exp-item">
-        <div class="exp-head">
-          <h3>Doc2QA Framework for LLM SFT Datasets</h3>
-          <span class="exp-date">2023.04 &ndash; Present</span>
-        </div>
-        <p class="exp-role">Developer &middot; NLPIR Lab</p>
-        <p class="exp-detail">
-          Released a QA instruction-tuning dataset from semi-structured data and built the
-          &ldquo;Doc2QA&rdquo; LLM framework that generates QA pairs from HTML, DOC, and PDF sources.
-        </p>
-        <ul class="tag-row" aria-label="Tech stack">
-          <li>Python</li><li>Llama-factory</li><li>Vllm</li><li>FastAPI</li><li>Docker</li><li>JavaScript</li>
-        </ul>
-      </div>
-    </section>
+      </section>
+    </main>
+  </div>
 
-    <!-- ===== Skills ===== -->
-    <section class="section" id="skills">
-      <h2 class="section-title">Skills</h2>
-      <div class="skills-grid">
-        <div class="skills-text">
-          <div class="skill-block">
-            <h3>Proficient in Coding</h3>
-            <p>Python, FastAPI, Elasticsearch, Docker, Vue.Js, Nginx</p>
-          </div>
-          <div class="skill-block">
-            <h3>Model Training in AI/ML</h3>
-            <p>PyTorch, TensorFlow, Llama-index, Vllm, Llama-factory</p>
-          </div>
-          <div class="skill-block">
-            <h3>Simulation and Design</h3>
-            <p>AutoCAD, CATIA, SolidWorks, ANSYS, 3DMax, Adobe Photoshop/Illustrator</p>
-          </div>
-          <div class="skill-block">
-            <h3>Languages</h3>
-            <p>Chinese (native), English (IELTS 6.5), Japanese (JLPT-N2)</p>
-          </div>
-        </div>
-        <figure class="skills-figure">
-          <img src="static/stack.png" alt="Diagram of Shaohuang Wang's technical skill stack" loading="lazy" />
-        </figure>
-      </div>
-    </section>
-
-    <!-- ===== Contact ===== -->
-    <section class="section" id="contact">
-      <h2 class="section-title">Contact</h2>
-      <ul class="contact-list">
-        <li><span class="contact-label">Email</span><a href="mailto:sh.wang4067@gmail.com">sh.wang4067@gmail.com</a></li>
-        <li><span class="contact-label">Tel</span><a href="tel:+8618116152720">+86 181-1615-2720</a></li>
-        <li><span class="contact-label">Homepage</span><a href="https://nicedata.eu.org" target="_blank" rel="noopener">nicedata.eu.org</a></li>
-        <li><span class="contact-label">GitHub</span><a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener">wdzhwsh4076</a></li>
-        <li><span class="contact-label">Address</span><span>Boda Campus, Xinjiang University, Urumqi City, China</span></li>
-      </ul>
-    </section>
-  </main>
-
+  <!-- ===== Footer ===== -->
   <footer class="footer">
-    <p>&copy; <span id="year">2026</span> Shaohuang Wang &middot; Built as a static site, hosted on GitHub Pages.</p>
+    <div class="footer-share" aria-label="Share and profiles">
+      <span class="footer-share-label">Share</span>
+      <a href="mailto:sh.wang4067@gmail.com" aria-label="Email">✉</a>
+      <a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener" aria-label="GitHub">⌨</a>
+      <a href="https://scholar.google.com" target="_blank" rel="noopener" aria-label="Google Scholar">🎓</a>
+      <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">🐦</a>
+      <a href="https://nicedata.eu.org" target="_blank" rel="noopener" aria-label="Homepage">🏠</a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year">2026</span> Shaohuang Wang</p>
   </footer>
 
   <script src="js/main.js"></script>
