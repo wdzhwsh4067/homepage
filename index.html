@@ -3,32 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shaohuang Wang</title>
+  <title>Shaohuang Wang — Home</title>
   <meta name="description" content="Shaohuang Wang — Computer Science Master's student at Xinjiang University and developer at NLPIR Lab. Research on Large Language Models and Recommender Systems." />
   <meta name="author" content="Shaohuang Wang" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📘</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <!-- ===== Header bar ===== -->
   <header class="site-header" id="top">
     <div class="site-header-inner">
-      <a class="brand" href="#top">Shaohuang Wang</a>
+      <a class="brand" href="index.html">Shaohuang Wang</a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
       <label for="nav-toggle" class="nav-burger" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </label>
       <nav class="nav" aria-label="Primary">
         <ul class="nav-links">
-          <li><a href="#about" class="is-current">Home</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#research">Research</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html" class="is-current" aria-current="page">Home</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -57,7 +58,6 @@
         <li><a href="mailto:sh.wang4067@gmail.com"><span class="ico" aria-hidden="true">✉</span> Email</a></li>
         <li><a href="https://scholar.google.com" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🎓</span> Google Scholar</a></li>
         <li><a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">⌨</span> GitHub</a></li>
-        <li><a href="https://twitter.com" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🐦</span> Twitter</a></li>
         <li><a href="https://nicedata.eu.org" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🏠</span> Homepage</a></li>
       </ul>
     </aside>
@@ -115,61 +115,6 @@
         </div>
       </section>
 
-      <!-- Publications -->
-      <section class="block" id="publications">
-        <h2 class="block-title">Publications</h2>
-
-        <article class="pub-featured">
-          <div class="pub-figure">
-            <img src="static/paper1.png" alt="Figure from In-Context Tense Attack publication" loading="lazy" />
-          </div>
-          <div class="pub-body">
-            <h3>Bypassing LLM Safeguards: The In-Context Tense Attack Approach</h3>
-            <p class="pub-meta">Wang, S et al. &middot; International Conference on Computer Engineering and Networks &middot; arXiv:2406.12243 (2024) &middot; <span class="badge badge-accepted">Accepted</span></p>
-            <p class="pub-summary">
-              Explores combining tense attacks with in-context examples to manipulate LLM security,
-              and proposes the In-Context Tense Attack (ITA) for jailbreaking large language models.
-            </p>
-            <p class="pub-actions">
-              <a href="https://arxiv.org/abs/2406.12243" target="_blank" rel="noopener">Arxiv</a>
-              <a href="https://arxiv.org/pdf/2406.12243" target="_blank" rel="noopener">PDF</a>
-              <a href="https://arxiv.org/abs/2406.12243" target="_blank" rel="noopener">Cite</a>
-            </p>
-          </div>
-        </article>
-
-        <article class="pub-featured pub-reverse">
-          <div class="pub-figure">
-            <img src="static/paper2-1.png" alt="Figure from CherryRec news recommendation framework" loading="lazy" />
-          </div>
-          <div class="pub-body">
-            <h3>CherryRec: Enhancing News Recommendation Quality via LLM driven Framework</h3>
-            <p class="pub-meta">Wang, S et al. &middot; ICASSP (2025) &middot; <span class="badge badge-review">Under Review</span></p>
-            <p class="pub-summary">
-              CherryRec is a news recommendation framework that uses LLMs to filter low-value news and
-              recommend high-quality news through user-preference understanding and multi-dimensional
-              scoring (KnRS + CnLE).
-            </p>
-            <p class="pub-actions">
-              <a href="#" target="_blank" rel="noopener">Arxiv</a>
-              <a href="#" target="_blank" rel="noopener">PDF</a>
-              <a href="#" target="_blank" rel="noopener">Cite</a>
-            </p>
-          </div>
-        </article>
-
-        <h3 class="subhead">Full publication list</h3>
-        <ol class="pub-list">
-          <li>Wang, S et al. &ldquo;Bypassing LLM Safeguards: The In-Context Tense Attack Approach.&rdquo; Int'l Conf. on Computer Engineering and Networks, arXiv:2406.12243 (2024). <span class="badge badge-accepted">Accepted</span></li>
-          <li>Wang, S et al. &ldquo;CherryRec: Enhancing News Recommendation Quality via LLM driven Framework.&rdquo; ICASSP (2025). <span class="badge badge-review">Under Review</span></li>
-          <li>Liang, Y &amp; Wang, S et al. &ldquo;LLaMA-MoT: A Cost-Effective Framework for Visual-Linguistic Instruction Tuning Based on Multi-Head Adapters and Chain-of-Thought.&rdquo; ESWA (2024). <span class="badge badge-review">Under Review</span></li>
-          <li>Wang, S et al. &ldquo;An agile construction method of instruction fine-tuning dataset based on semi-structured data.&rdquo; Patent (2024). <span class="badge badge-review">Submitted</span></li>
-          <li>Wang, S et al. &ldquo;Finite element analysis of modular automotive body based on Ansys.&rdquo; Guangxi Journal of Light Industry (2020). <span class="badge badge-accepted">Accepted</span></li>
-          <li>Wang, S et al. &ldquo;Buffer connecting device for vehicle.&rdquo; Patent (2020). <span class="badge badge-accepted">Accepted</span></li>
-        </ol>
-        <p class="pub-note">Still in possession of 8 patents, along with various other publications.</p>
-      </section>
-
       <!-- Research Experience -->
       <section class="block" id="research">
         <h2 class="block-title">Research Experience</h2>
@@ -202,6 +147,7 @@
             <li>Python</li><li>Llama-factory</li><li>Vllm</li><li>FastAPI</li><li>Docker</li><li>JavaScript</li>
           </ul>
         </div>
+        <p><a href="projects.html">See all projects &rarr;</a></p>
       </section>
 
       <!-- Skills -->
@@ -231,18 +177,6 @@
           </figure>
         </div>
       </section>
-
-      <!-- Contact -->
-      <section class="block" id="contact">
-        <h2 class="block-title">Contact</h2>
-        <ul class="contact-list">
-          <li><span class="contact-label">Email</span><a href="mailto:sh.wang4067@gmail.com">sh.wang4067@gmail.com</a></li>
-          <li><span class="contact-label">Tel</span><a href="tel:+8618116152720">+86 181-1615-2720</a></li>
-          <li><span class="contact-label">Homepage</span><a href="https://nicedata.eu.org" target="_blank" rel="noopener">nicedata.eu.org</a></li>
-          <li><span class="contact-label">GitHub</span><a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener">wdzhwsh4076</a></li>
-          <li><span class="contact-label">Address</span><span>Boda Campus, Xinjiang University, Urumqi City, China</span></li>
-        </ul>
-      </section>
     </main>
   </div>
 
@@ -253,7 +187,6 @@
       <a href="mailto:sh.wang4067@gmail.com" aria-label="Email">✉</a>
       <a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener" aria-label="GitHub">⌨</a>
       <a href="https://scholar.google.com" target="_blank" rel="noopener" aria-label="Google Scholar">🎓</a>
-      <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">🐦</a>
       <a href="https://nicedata.eu.org" target="_blank" rel="noopener" aria-label="Homepage">🏠</a>
     </div>
     <p class="footer-copy">&copy; <span id="year">2026</span> Shaohuang Wang</p>

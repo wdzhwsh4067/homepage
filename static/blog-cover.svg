@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Cover image for the academic website design article">
+  <defs>
+    <linearGradient id="bc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a3b33"/>
+      <stop offset="0.5" stop-color="#b9685c"/>
+      <stop offset="1" stop-color="#3d4a5c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="360" fill="url(#bc)"/>
+  <g fill="#ffffff" opacity="0.14">
+    <rect x="120" y="90" width="220" height="150" rx="10"/>
+    <rect x="360" y="90" width="220" height="150" rx="10"/>
+    <rect x="600" y="90" width="120" height="150" rx="10"/>
+  </g>
+  <g fill="#ffffff" opacity="0.5">
+    <rect x="140" y="110" width="140" height="10" rx="5"/>
+    <rect x="140" y="128" width="100" height="10" rx="5"/>
+    <rect x="380" y="110" width="140" height="10" rx="5"/>
+    <rect x="380" y="128" width="100" height="10" rx="5"/>
+  </g>
+  <text x="400" y="300" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle">Best Academic Websites of 2025</text>
+  <text x="400" y="334" fill="#f3ece6" font-family="'Open Sans',Arial,sans-serif" font-size="16" text-anchor="middle">Design inspiration &amp; award galleries</text>
+</svg>

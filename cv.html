@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Shaohuang Wang</title>
+  <meta name="description" content="Curriculum vitae of Shaohuang Wang — education, research experience, technical skills, and a summary of publications." />
+  <meta name="author" content="Shaohuang Wang" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📘</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ===== Header bar ===== -->
+  <header class="site-header" id="top">
+    <div class="site-header-inner">
+      <a class="brand" href="index.html">Shaohuang Wang</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-burger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="cv.html" class="is-current" aria-current="page">CV</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Full-width decorative banner ===== -->
+  <div class="banner">
+    <img src="static/banner.svg" alt="Decorative banner of overlapping human head-and-shoulders profile silhouettes in maroon and terracotta tones" />
+  </div>
+
+  <!-- ===== Two-column body ===== -->
+  <div class="layout">
+    <!-- ----- Left sidebar ----- -->
+    <aside class="sidebar">
+      <img class="sidebar-photo" src="static/self.jpeg" alt="Portrait of Shaohuang Wang" width="240" height="240" />
+      <p class="sidebar-name">Shaohuang Wang</p>
+      <p class="sidebar-title">CS Master's Student</p>
+      <p class="sidebar-affil">Xinjiang University</p>
+      <p class="sidebar-email"><a href="mailto:sh.wang4067@gmail.com">sh.wang4067@gmail.com</a></p>
+      <p class="sidebar-dept">
+        NLPIR Lab<br />
+        School of Computer Science<br />
+        Xinjiang University, Urumqi, China
+      </p>
+      <ul class="social" aria-label="Profiles and contact">
+        <li><a href="mailto:sh.wang4067@gmail.com"><span class="ico" aria-hidden="true">✉</span> Email</a></li>
+        <li><a href="https://scholar.google.com" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🎓</span> Google Scholar</a></li>
+        <li><a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">⌨</span> GitHub</a></li>
+        <li><a href="https://nicedata.eu.org" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🏠</span> Homepage</a></li>
+      </ul>
+    </aside>
+
+    <!-- ----- Right main column ----- -->
+    <main class="main">
+      <section class="block">
+        <h1 class="about-title">Curriculum Vitae</h1>
+        <p class="page-intro">
+          A summary of my education, research experience, technical skills, and publications.
+          A full PDF version is available for download.
+        </p>
+        <p class="cv-actions"><a class="btn" href="#" download>Download CV (PDF)</a></p>
+      </section>
+
+      <section class="block">
+        <h2 class="block-title">Education</h2>
+        <div class="cv-item">
+          <div class="cv-row">
+            <h3>Xinjiang University, China</h3>
+            <span class="cv-date">2022.09 – Present</span>
+          </div>
+          <p class="cv-sub">M.Eng. in Computer Science · GPA 3.5/4.0</p>
+          <p>Thesis: “Research on scientific and technological information recommendation via LLM.” Core courses: Machine Learning, Computer Networks, Data Structures.</p>
+        </div>
+        <div class="cv-item">
+          <div class="cv-row">
+            <h3>Shanghai University of Engineering Science, China</h3>
+            <span class="cv-date">2016.09 – 2020.06</span>
+          </div>
+          <p class="cv-sub">B.Eng. in Vehicle Engineering · GPA 3.1/4.0</p>
+          <p>National Scholarship (Top 1%); First-Class Scholarship (Top 3%).</p>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2 class="block-title">Research Experience</h2>
+        <div class="cv-item">
+          <div class="cv-row">
+            <h3>Domain Information Tracking &amp; Processing Project</h3>
+            <span class="cv-date">2022.09 – Present</span>
+          </div>
+          <p class="cv-sub">Developer · NLPIR Lab</p>
+          <p>Built the algorithm tool layer — data collection, review and correction, dynamic selection, keyword extraction, and briefing generation — using Elasticsearch and MySQL with a Docker-based, front/back-end separated deployment.</p>
+        </div>
+        <div class="cv-item">
+          <div class="cv-row">
+            <h3>Doc2QA Framework for LLM SFT Datasets</h3>
+            <span class="cv-date">2023.04 – Present</span>
+          </div>
+          <p class="cv-sub">Developer · NLPIR Lab</p>
+          <p>Released a QA instruction-tuning dataset from semi-structured data and built the “Doc2QA” framework that generates QA pairs from HTML, DOC, and PDF sources.</p>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2 class="block-title">Technical Skills</h2>
+        <div class="cv-item">
+          <p class="cv-sub">Programming &amp; Infrastructure</p>
+          <p>Python, FastAPI, Elasticsearch, Docker, Vue.js, Nginx, MySQL</p>
+        </div>
+        <div class="cv-item">
+          <p class="cv-sub">AI / Machine Learning</p>
+          <p>PyTorch, TensorFlow, Llama-index, Vllm, Llama-factory</p>
+        </div>
+        <div class="cv-item">
+          <p class="cv-sub">Simulation &amp; Design</p>
+          <p>AutoCAD, CATIA, SolidWorks, ANSYS, 3DMax, Adobe Photoshop/Illustrator</p>
+        </div>
+        <div class="cv-item">
+          <p class="cv-sub">Languages</p>
+          <p>Chinese (native), English (IELTS 6.5), Japanese (JLPT-N2)</p>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2 class="block-title">Selected Publications</h2>
+        <div class="cv-item">
+          <p>Wang, S. et al. “Bypassing LLM Safeguards: The In-Context Tense Attack Approach.” Int’l Conf. on Computer Engineering and Networks, arXiv:2406.12243 (2024).</p>
+          <p>Wang, S. et al. “CherryRec: Enhancing News Recommendation Quality via an LLM-Driven Framework.” ICASSP (2025), under review.</p>
+          <p>Liang, Y., Wang, S. et al. “LLaMA-MoT: A Cost-Effective Framework for Visual-Linguistic Instruction Tuning.” ESWA, under review.</p>
+          <p>Wang, S. et al. “Finite Element Analysis of a Modular Automotive Body Based on Ansys.” Guangxi Journal of Light Industry (2020).</p>
+          <p>Plus patents on instruction fine-tuning dataset construction (2024) and a vehicle buffer connecting device (2020), among 8 patents total. See the <a href="publications.html">full publications page</a>.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="footer-share" aria-label="Share and profiles">
+      <span class="footer-share-label">Share</span>
+      <a href="mailto:sh.wang4067@gmail.com" aria-label="Email">✉</a>
+      <a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener" aria-label="GitHub">⌨</a>
+      <a href="https://scholar.google.com" target="_blank" rel="noopener" aria-label="Google Scholar">🎓</a>
+      <a href="https://nicedata.eu.org" target="_blank" rel="noopener" aria-label="Homepage">🏠</a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year">2026</span> Shaohuang Wang</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

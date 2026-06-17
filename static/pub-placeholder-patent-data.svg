@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Instruction-tuning dataset patent thumbnail">
+  <rect width="320" height="200" fill="#3d4a5c"/>
+  <g fill="#ffffff" opacity="0.14">
+    <rect x="30" y="36" width="120" height="128" rx="6"/>
+    <rect x="170" y="36" width="120" height="128" rx="6"/>
+  </g>
+  <g fill="#ffffff" opacity="0.5">
+    <rect x="46" y="56" width="88" height="8" rx="4"/>
+    <rect x="46" y="74" width="64" height="8" rx="4"/>
+    <rect x="186" y="56" width="88" height="8" rx="4"/>
+    <rect x="186" y="74" width="64" height="8" rx="4"/>
+  </g>
+  <text x="160" y="118" fill="#ffd7a8" font-family="'Open Sans',Arial,sans-serif" font-size="40" font-weight="700" text-anchor="middle">&#8594;</text>
+  <text x="160" y="186" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle">Semi-structured Data &#8594; Instruction Set</text>
+</svg>

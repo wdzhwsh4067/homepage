@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Recommender system demo project illustration">
+  <rect width="400" height="240" fill="#3d2a4a"/>
+  <g fill="#d9c3f0" opacity="0.85">
+    <rect x="60" y="80" width="60" height="80" rx="6"/>
+    <rect x="170" y="60" width="60" height="100" rx="6"/>
+    <rect x="280" y="100" width="60" height="60" rx="6"/>
+  </g>
+  <text x="90" y="200" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="13" text-anchor="middle">&#9733;&#9733;&#9733;</text>
+  <text x="200" y="200" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="13" text-anchor="middle">&#9733;&#9733;&#9733;&#9733;&#9733;</text>
+  <text x="310" y="200" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="13" text-anchor="middle">&#9733;&#9733;&#9733;&#9733;</text>
+  <text x="200" y="40" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle">LLM Recommender Demo</text>
+  <text x="200" y="226" fill="#d9c3f0" font-family="'Open Sans',Arial,sans-serif" font-size="13" text-anchor="middle">Sample project</text>
+</svg>

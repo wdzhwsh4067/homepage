@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Retrieval-augmented generation demo project illustration">
+  <rect width="400" height="240" fill="#1f3b2e"/>
+  <g fill="none" stroke="#7ed4a6" stroke-width="2" opacity="0.8">
+    <rect x="40" y="90" width="80" height="60" rx="8"/>
+    <rect x="160" y="90" width="80" height="60" rx="8"/>
+    <rect x="280" y="90" width="80" height="60" rx="8"/>
+    <path d="M120 120 L160 120 M240 120 L280 120"/>
+  </g>
+  <text x="80" y="124" fill="#bfe9d2" font-family="'Open Sans',Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">Query</text>
+  <text x="200" y="124" fill="#bfe9d2" font-family="'Open Sans',Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">Retrieve</text>
+  <text x="320" y="124" fill="#bfe9d2" font-family="'Open Sans',Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">Generate</text>
+  <text x="200" y="40" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle">RAG Knowledge Assistant</text>
+  <text x="200" y="200" fill="#7ed4a6" font-family="'Open Sans',Arial,sans-serif" font-size="13" text-anchor="middle">Sample project</text>
+</svg>

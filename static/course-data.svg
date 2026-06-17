@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Data Structures and Algorithms sample course thumbnail">
+  <rect width="400" height="220" fill="#1f3b2e"/>
+  <g fill="#7ed4a6" opacity="0.85">
+    <rect x="90" y="150" width="24" height="30" rx="3"/>
+    <rect x="126" y="120" width="24" height="60" rx="3"/>
+    <rect x="162" y="90" width="24" height="90" rx="3"/>
+    <rect x="198" y="110" width="24" height="70" rx="3"/>
+    <rect x="234" y="70" width="24" height="110" rx="3"/>
+    <rect x="270" y="130" width="24" height="50" rx="3"/>
+  </g>
+  <text x="200" y="46" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">Data Structures &amp; Algorithms</text>
+  <text x="200" y="206" fill="#bfe9d2" font-family="'Open Sans',Arial,sans-serif" font-size="13" text-anchor="middle">Sample course</text>
+</svg>

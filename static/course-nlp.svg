@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Natural Language Processing sample course thumbnail">
+  <rect width="400" height="220" fill="#26303d"/>
+  <g fill="#9fb4cc" opacity="0.8">
+    <rect x="80" y="80" width="50" height="14" rx="7"/>
+    <rect x="142" y="80" width="80" height="14" rx="7"/>
+    <rect x="234" y="80" width="40" height="14" rx="7"/>
+    <rect x="100" y="108" width="70" height="14" rx="7"/>
+    <rect x="182" y="108" width="56" height="14" rx="7"/>
+  </g>
+  <text x="200" y="50" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">Natural Language Processing</text>
+  <text x="200" y="170" fill="#9fb4cc" font-family="'Open Sans',Arial,sans-serif" font-size="13" text-anchor="middle">Sample course</text>
+</svg>

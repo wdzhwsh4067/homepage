@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Shaohuang Wang</title>
+  <meta name="description" content="Writing by Shaohuang Wang on research, large language models, and building strong personal academic websites." />
+  <meta name="author" content="Shaohuang Wang" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📘</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ===== Header bar ===== -->
+  <header class="site-header" id="top">
+    <div class="site-header-inner">
+      <a class="brand" href="index.html">Shaohuang Wang</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-burger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="blog.html" class="is-current" aria-current="page">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Full-width decorative banner ===== -->
+  <div class="banner">
+    <img src="static/banner.svg" alt="Decorative banner of overlapping human head-and-shoulders profile silhouettes in maroon and terracotta tones" />
+  </div>
+
+  <!-- ===== Two-column body ===== -->
+  <div class="layout">
+    <!-- ----- Left sidebar ----- -->
+    <aside class="sidebar">
+      <img class="sidebar-photo" src="static/self.jpeg" alt="Portrait of Shaohuang Wang" width="240" height="240" />
+      <p class="sidebar-name">Shaohuang Wang</p>
+      <p class="sidebar-title">CS Master's Student</p>
+      <p class="sidebar-affil">Xinjiang University</p>
+      <p class="sidebar-email"><a href="mailto:sh.wang4067@gmail.com">sh.wang4067@gmail.com</a></p>
+      <p class="sidebar-dept">
+        NLPIR Lab<br />
+        School of Computer Science<br />
+        Xinjiang University, Urumqi, China
+      </p>
+      <ul class="social" aria-label="Profiles and contact">
+        <li><a href="mailto:sh.wang4067@gmail.com"><span class="ico" aria-hidden="true">✉</span> Email</a></li>
+        <li><a href="https://scholar.google.com" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🎓</span> Google Scholar</a></li>
+        <li><a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">⌨</span> GitHub</a></li>
+        <li><a href="https://nicedata.eu.org" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🏠</span> Homepage</a></li>
+      </ul>
+    </aside>
+
+    <!-- ----- Right main column ----- -->
+    <main class="main">
+      <section class="block">
+        <h1 class="about-title">Blog</h1>
+        <p class="page-intro">
+          Notes on research, large language models, and the craft of presenting academic work
+          well online.
+        </p>
+
+        <ul class="post-list">
+          <li class="post-card">
+            <a class="post-card-media" href="blog-best-academic-websites-2025.html" aria-hidden="true" tabindex="-1">
+              <img src="static/blog-cover.svg" alt="Cover image for the article on the best personal academic websites of 2025" loading="lazy" />
+            </a>
+            <div class="post-card-body">
+              <h3><a href="blog-best-academic-websites-2025.html">The Best Personal Academic Websites of 2025 — and Where to Find Design Inspiration</a></h3>
+              <p class="post-date">June 17, 2026</p>
+              <p class="post-excerpt">
+                A tour of the 2025 Best Personal Academic Websites Contest winners and a curated set
+                of official design-award galleries you can browse for inspiration when building your
+                own academic site.
+              </p>
+              <p><a href="blog-best-academic-websites-2025.html">Read the article &rarr;</a></p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="footer-share" aria-label="Share and profiles">
+      <span class="footer-share-label">Share</span>
+      <a href="mailto:sh.wang4067@gmail.com" aria-label="Email">✉</a>
+      <a href="https://github.com/wdzhwsh4076" target="_blank" rel="noopener" aria-label="GitHub">⌨</a>
+      <a href="https://scholar.google.com" target="_blank" rel="noopener" aria-label="Google Scholar">🎓</a>
+      <a href="https://nicedata.eu.org" target="_blank" rel="noopener" aria-label="Homepage">🏠</a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year">2026</span> Shaohuang Wang</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Introduction to Machine Learning sample course thumbnail">
+  <rect width="400" height="220" fill="#8a3b33"/>
+  <g fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7">
+    <circle cx="120" cy="110" r="10"/><circle cx="200" cy="70" r="10"/><circle cx="200" cy="150" r="10"/><circle cx="280" cy="110" r="10"/>
+    <path d="M130 110 L190 74 M130 110 L190 146 M210 70 L270 106 M210 150 L270 114"/>
+  </g>
+  <text x="200" y="40" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">Machine Learning</text>
+  <text x="200" y="200" fill="#f3ece6" font-family="'Open Sans',Arial,sans-serif" font-size="13" text-anchor="middle">Sample course</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Ansys finite element analysis thumbnail">
+  <rect width="320" height="200" fill="#1f3b2e"/>
+  <g stroke="#7ed4a6" stroke-width="1.2" fill="none" opacity="0.6">
+    <path d="M40 150 L90 70 L140 110 L190 60 L240 120 L290 70"/>
+    <path d="M40 150 L90 90 L140 130 L190 80 L240 140 L290 90" opacity="0.5"/>
+  </g>
+  <g fill="#7ed4a6" opacity="0.25">
+    <polygon points="60,150 110,150 85,110"/>
+    <polygon points="120,150 170,150 145,110"/>
+    <polygon points="180,150 230,150 205,110"/>
+  </g>
+  <text x="160" y="50" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="22" font-weight="700" text-anchor="middle">FEA / ANSYS</text>
+  <text x="160" y="186" fill="#bfe9d2" font-family="'Open Sans',Arial,sans-serif" font-size="13" text-anchor="middle">Modular Automotive Body Analysis</text>
+</svg>

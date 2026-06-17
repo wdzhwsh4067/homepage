@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Buffer connecting device patent thumbnail">
+  <rect width="320" height="200" fill="#4a3b5c"/>
+  <g stroke="#d9c3f0" stroke-width="3" fill="none">
+    <rect x="50" y="86" width="60" height="28" rx="4"/>
+    <rect x="210" y="86" width="60" height="28" rx="4"/>
+    <path d="M110 100 q10 -14 20 0 q10 14 20 0 q10 -14 20 0 q10 14 20 0 q10 -14 20 0"/>
+  </g>
+  <text x="160" y="50" fill="#ffffff" font-family="'Open Sans',Arial,sans-serif" font-size="22" font-weight="700" text-anchor="middle">Patent</text>
+  <text x="160" y="170" fill="#d9c3f0" font-family="'Open Sans',Arial,sans-serif" font-size="13" text-anchor="middle">Buffer Connecting Device for Vehicle</text>
+</svg>
